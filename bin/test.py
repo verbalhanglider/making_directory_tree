@@ -1,6 +1,7 @@
 
 from testDirectoryCreation.utils import traverse_data, make_named_directory, make_a_tiff, make_a_jpeg,\
-    make_a_text_document, make_an_xml_document
+    make_a_text_document, make_an_xml_document, make_a_simple_pdf
+from testDirectoryCreation.pdf_making import generate_a_pdf
 from os.path import exists
 from json import load
 from sys import argv, stdout
@@ -13,19 +14,22 @@ def build_directory_tree(data):
     dir_path = starter_directory
     for path, mimetype in data:
         if not mimetype:
-            print(make_named_directory(path, dir=dir_path))
+            make_named_directory(path, dir=dir_path)
         if mimetype == 'image/tiff':
             # make tiff image
-            print(make_a_tiff(path, 'blue', dir=dir_path))
+            make_a_tiff(path, 'blue', dir=dir_path)
         elif mimetype == 'image/jpeg':
             # make a jpeg image
-            print(make_a_jpeg(path, 'blue', dir=dir_path))
+            make_a_jpeg(path, 'blue', dir=dir_path)
         elif mimetype == 'text/plain':
             # make a text file
-            print(make_a_text_document(path, dir=dir_path))
+            make_a_text_document(path, dir=dir_path)
         elif mimetype == 'application/xml':
             # make an xml file
-            print(make_an_xml_document(path, dir=dir_path))
+            make_an_xml_document(path, dir=dir_path)
+        elif mimetype == 'application/pdf':
+            # make a pdf file
+            generate_a_pdf(path, 3, dir=dir_path)
     return dir_path    
 
 if __name__ == "__main__":

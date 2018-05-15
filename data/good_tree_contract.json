@@ -85,6 +85,12 @@
                                     "type": "file",
                                     "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.txt",
                                     "mimetype": "text/plain"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.pdf",
+                                    "mimetype": "application/pdf",
+                                    "numPages": 10
                                 }
                             ]
                         }

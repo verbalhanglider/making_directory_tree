@@ -41,8 +41,8 @@ def make_a_path(filename, dir=None):
     else:
         return join(getcwd(), filename)    
 
-def make_a_jpeg(filename, color, dir=None):
-    """function to make a jpeg image
+def make_a_simple_pdf(filename, color, dir=None):
+    """function to make a pdf file with a single image
 
     Args:
         filename (str): the full path to write the jpeg image to
@@ -51,15 +51,34 @@ def make_a_jpeg(filename, color, dir=None):
     
     KWargs:
         dir (str): the directory location to put the new text document into
-        xml_doc (xml.etree.ElementTree.Element): some xml element to add to the newly created xml document
 
     Return:
-        str. the path to the new xml document
+        str. the path to the new pdf document
     """
 
     path = make_a_path(filename, dir=dir)
     new_image = make_a_solid_color_image(color)
-    new_image.save(path, tiffInfo=0)
+    new_image.save(path, 'PDF', resolution=100.0)
+    return path
+
+def make_a_jpeg(filename, color, dir=None):
+    """function to make a pdf file with a single image
+
+    Args:
+        filename (str): the full path to write the jpeg image to
+        color (str): the RGB value as string to determine what color the image should be. 
+                     Example: blue, green, yellow, red
+    
+    KWargs:
+        dir (str): the directory location to put the new text document into
+
+    Return:
+        str. the path to the new pdf document
+    """
+
+    path = make_a_path(filename, dir=dir)
+    new_image = make_a_solid_color_image(color)
+    new_image.save(path, 'JPEG', resolution=100.0)
     return path
 
 def make_a_tiff(filename, color, dir=None):
@@ -72,7 +91,6 @@ def make_a_tiff(filename, color, dir=None):
    
     KWargs:
         dir (str): the directory location to put the new text document into
-        xml_doc (xml.etree.ElementTree.Element): some xml element to add to the newly created xml document
 
     Return:
         str. the path to the new xml document
