@@ -8,6 +8,8 @@ from sys import argv, stdout
 
 def build_directory_tree(data):
     """convenience function to create a basic LIMB style mvol directory
+
+    taken from https://stackoverflow.com/questions/2925484/place-image-over-pdf
     """
     data = traverse_data(data)
     starter_directory = make_named_directory('root')
