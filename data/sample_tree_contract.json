@@ -1,0 +1,96 @@
+[{
+    "type": "directory",
+    "name": "mvol",
+    "contents": [
+        {
+            "type": "directory",
+            "name": "mvol/0009",
+            "contents": [
+                {
+                    "type": "directory",
+                    "name": "mvol/0009/0010",
+                    "contents": [
+                        {
+                            "type": "directory",
+                            "name": "mvol/0009/0010/0011",
+                            "contents": [
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0010/0011/ALTO",
+                                    "type": "directory",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/ALTO/mvol-0009-0010-011_0001.xml",
+                                            "mimetype": "application/xml"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/ALTO/mvol-0009-0010-011_0002.xml",
+                                            "mimetype": "application/xml"
+                                        }
+                                    ]
+
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0010/0011/JPEG",
+                                    "type": "directory",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/JPEG/mvol-0009-0010-011_0001.jpeg",
+                                            "mimetype": "image/jpeg"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/JPEG/mvol-0009-0010-011_0002.jpeg",
+                                            "mimetype": "image/jpeg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0010/0011/TIFF",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/TIFF/mvol-0009-0010-011_0001.tiff",
+                                            "mimetype": "image/tiff"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0010/0011/TIFF/mvol-0009-0010-011_0002.tiff",
+                                            "mimetype": "image/tiff"
+                                        }
+ 
+                                    ]
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.dc.xml",
+                                    "mimetype": "application/xml"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.mets.xml",
+                                    "mimetype": "application/xml"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.struct.txt",
+                                    "mimetype": "text/plain"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0010/0011/mvol-0009-0010-0011.txt",
+                                    "mimetype": "text/plain"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}]

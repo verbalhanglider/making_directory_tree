@@ -1,0 +1,7 @@
+
+{
+    "python.pythonPath": "C:/Users/tdanstrom/Envs/makeTestDirectory/Scripts/python.exe",
+    "python.autoComplete.extraPaths": [
+        "C:/Users/tdanstrom/Envs/makeTestDirectory/Lib/site-packages"
+    ]
+}

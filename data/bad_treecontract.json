@@ -1,0 +1,86 @@
+[{
+    "type": "directory",
+    "name": "mvol",
+    "contents": [
+        {
+            "type": "directory",
+            "name": "mvol/0009",
+            "contents": [
+                {
+                    "type": "directory",
+                    "name": "mvol/0009/0012",
+                    "contents": [
+                        {
+                            "type": "directory",
+                            "name": "mvol/0009/0012/0007",
+                            "contents": [
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0012/0007/ALTO",
+                                    "type": "directory",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0012/0007/ALTO/mvol-0009-0010-012_0001.xml",
+                                            "mimetype": "application/xml"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0012/0007/ALTO/mvol-0009-0010-012_0002.xml",
+                                            "mimetype": "application/xml"
+                                        }
+                                    ]
+
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0012/0007/JPEG",
+                                    "type": "directory",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0012/0007/JPEG/mvol-0009-0010-012_0001.jpeg",
+                                            "mimetype": "image/jpeg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "directory",
+                                    "name": "mvol/0009/0012/0007/TIFF",
+                                    "contents": [
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0012/0007/TIFF/mvol-0009-0010-012-0001.tiff",
+                                            "mimetype": "image/tiff"
+                                        },
+                                        {
+                                            "type": "file",
+                                            "name": "mvol/0009/0012/0007/TIFF/mvol-0009-0010-012_0003.tiff",
+                                            "mimetype": "image/tiff"
+                                        }
+ 
+                                    ]
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0012/0007/mvol-0009-0010-0012.mets.xml",
+                                    "mimetype": "application/xml"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0012/0007/mvol-0009-0010-0012.struct.txt",
+                                    "mimetype": "text/plain"
+                                },
+                                {
+                                    "type": "file",
+                                    "name": "mvol/0009/0012/0007/mvol-0009-0010-0012.txt",
+                                    "mimetype": "text/plain"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}]
