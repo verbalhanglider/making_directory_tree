@@ -6,7 +6,7 @@ from json import load
 from sys import argv, stdout
 
 def build_directory_tree(data):
-    """convenience funciton to create a basic LIMB style mvol directory
+    """convenience function to create a basic LIMB style mvol directory
     """
     data = traverse_data(data)
     starter_directory = make_named_directory('root')
