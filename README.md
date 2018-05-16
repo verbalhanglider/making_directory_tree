@@ -68,6 +68,10 @@ Some rules to remember when you make your own contracts, however.
 1. Each record has to have the following properties
     - type which can have a value of file or directory
     - name which is the full name of the item including path starting with root record and if it is a file the file extension
-1. Any record with type file must have the property mimetype with a value conforming to [Media Type Specifications and Registration Procuedures](https://tools.ietf.org/html/rfc6838)
+1. Any record with type file must have the property mime type with a value conforming to [Media Type Specifications and Registration Procedures](https://tools.ietf.org/html/rfc6838)
 1. Any record with type directory must have a property contents that has a value that is a list of records
 1. The only valid types are directory or file
+
+## Author
+
+- verbalhanglider (tyler@danstrom.com)
