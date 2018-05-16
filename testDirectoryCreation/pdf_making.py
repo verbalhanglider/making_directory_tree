@@ -1,4 +1,4 @@
-from os import getcwd
+from os import getcwd, remove
 from os.path import join
 from io import BytesIO
 from PyPDF2.pdf import PdfFileReader, PdfFileWriter
@@ -46,6 +46,7 @@ def generate_a_pdf(filename, num_pages, dir=None):
         imgDoc.drawImage(jpeg_path, 25, 45)
         imgDoc.save()
         pdf.addPage(PdfFileReader(BytesIO(imgTemp.getvalue())).getPage(0))
+        remove(jpeg_path)
     if dir:
         path = join(dir, filename)
     else:
