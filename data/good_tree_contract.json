@@ -17,7 +17,6 @@
                                 {
                                     "type": "directory",
                                     "name": "mvol/0009/0010/0011/ALTO",
-                                    "type": "directory",
                                     "contents": [
                                         {
                                             "type": "file",
@@ -35,7 +34,6 @@
                                 {
                                     "type": "directory",
                                     "name": "mvol/0009/0010/0011/JPEG",
-                                    "type": "directory",
                                     "contents": [
                                         {
                                             "type": "file",
