@@ -8,5 +8,10 @@ setup(
     email="tdanstrom@uchicago.edu",
     packages=["testDirectoryCreation"],
     short_description="A simple utility for creating a temporary directory full of specific files",
-    long_description=open(join("./", 'README.md'), 'r', encoding='utf-8').read()
+    long_description=open(join("./", 'README.md'), 'r', encoding='utf-8').read(),
+    entry_points = {
+        'console_scripts': [
+            'make_test_dir=testDirectoryCreation.__main__:main'
+        ]
+    }
 )
