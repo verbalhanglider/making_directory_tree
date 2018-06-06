@@ -19,6 +19,7 @@ def main():
         starter_directory = make_named_directory('root')
         dir_path = starter_directory
         for path, mimetype, payload in data:
+            print(path)
             mime2filecreation.get(mimetype)(path, dir=dir_path, payload=payload)
         stdout.write("finished creating new directory tree at 'root'\n")
         return 0
